@@ -98,6 +98,14 @@ bash start.sh stop ubuntu
 
 ## Windows 使用教程
 
+> 不同Windows版本可以在这里看：https://hub.docker.com/r/dockurr/windows
+> 
+> 然后改：
+> ```bash
+> environment:
+>     VERSION: "11"
+> ```
+
 ### 启动 Windows 11
 
 默认启动 Windows 11。
