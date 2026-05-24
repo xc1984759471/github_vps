@@ -164,7 +164,7 @@ services:
 EOF
 
     echo "✅ 已生成: $WINDOWS_COMPOSE_FILE"
-
+    wget -O /tmp/$WINDOWS_STORAGE_SUBDIR/win11x64.iso https://edge.zerofs.link/aa6d3924ada44722bef8caae2ac23f0e/zh-cn_windows_11_consumer_editions_version_25h2_updated_may_2026_x64_dvd_ceef8999.iso
     detect_compose_cmd
 
     echo ""
